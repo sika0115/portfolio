@@ -1,8 +1,8 @@
 :root {
   --clr1: #ddd;
   --clr2: #efefef;
-  --clr3: #333;
-  --clr4: tomato;
+  --clr3: rgb(77, 77, 77);
+  --clr4: rgb(120, 132, 248);
   --border-radius: 7px;
   --text-radius: 50em;
 }
@@ -60,10 +60,10 @@ header {
 }
 
 header .logo {
-  background: var(--clr1);
+  /*background: var(--clr1);
   width: 50px;
   height: 50px;
-  border-radius: var(--text-radius);
+  /*border-radius: var(--text-radius);*/
 }
 header nav {
   position: absolute;
@@ -159,10 +159,10 @@ footer {
   margin: 10px 0 0 0;
 }
 footer .logo {
-  background: var(--clr2);
+  /*background: var(--clr2);*/
   width: 50px;
   height: 50px;
-  border-radius: var(--text-radius);
+  /*border-radius: var(--text-radius);*/
 }
 footer nav {
   position: absolute;
