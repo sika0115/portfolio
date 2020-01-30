@@ -55,10 +55,29 @@ header {
   border-radius: 0px 0px var(--border-radius) var(--border-radius);
 }
 
+h1 {
+  color: rgb(77, 77, 77);
+  font-size: 30px;
+  font-weight: bold;
+}
 .fluid .wrap.sticky header {
   max-width: 100% !important;
 }
 
+.btn-gradient-radius {
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  transition: .4s;
+  margin-top: 40px;
+}
+
+.btn-gradient-radius:hover {
+  background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
 header .logo {
   /*background: var(--clr1);
   width: 50px;
@@ -78,6 +97,7 @@ header nav ul li {
   height: 10px;
   background: var(--clr1);
   border-radius: var(--text-radius);
+  text-align: center;
 }
 
 section {
@@ -87,6 +107,7 @@ section {
   border-radius: var(--border-radius);
   position: relative;
   margin: 10px 0 0 0;
+  text-align: center;
 }
 section .headline {
   display: block;
@@ -96,6 +117,7 @@ section .headline {
   height: 30px;
   background: var(--clr1);
   border-radius: var(--text-radius);
+  text-align: center;
 }
 section .text {
   display: block;
@@ -104,6 +126,7 @@ section .text {
   height: 14px;
   background: var(--clr1);
   border-radius: var(--text-radius);
+  text-align: center;
 }
 section .button {
   display: block;
@@ -112,6 +135,7 @@ section .button {
   height: 35px;
   background: var(--clr1);
   border-radius: var(--text-radius);
+  text-align: center;
 }
 section.contentbox .headline {
   margin: 10px 0 !important;
